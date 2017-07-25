@@ -1,1 +1,7 @@
 Use the 'diff -u' command for comparing 2 files and understanding where the differences are
+There are # of things that you can learn from using the 'diff' command. you can see where exactly are the differences between 2 pieces of code and if there is an error, it is more easy than ever to spot the exact place where it was introduced.
+Version control makes you more efficent programmer as you will exactly undrestand what changes are made by different developers or how the code went through different phases
+There are pros and cons to both the approaches. While one gives you the flexibility to choose when to commit, it also puts you in danger if you forgot to commit for any reasons. The 'automatic' commit helps in that you can completely forget about commiting the code manually but sometimes these automatic commit might not be meaningful. The approach should a combination of 'best of both worlds'
+
+'Git log' will gives you the history of all the commits that were ever made to teh repository
+'Git diff' will give you the list of changes that occurred between 2 diferent commits.
